@@ -1,0 +1,5 @@
+create database foodorder;
+use foodorder;
+create table orders(orderId int not null primary key auto_increment,customerName varchar(50),foodId int,quantity int,price double,date varchar(50));
+create table admin(adminId int not null primary key auto_increment,adminName varchar(50),username varchar(50),phone varchar(50),address varchar(50),password varchar(50));
+create table food(FoodId int not null primary key auto_increment,FoodName varchar(50),FoodCategory varchar(50),FoodDescription varchar(50),Price varchar(50));
