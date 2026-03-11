@@ -20,10 +20,3 @@ and generates bills with database integration.
 3. Set up the database using database.txt
 4. Run the main class from src/com/restaurant
 ```
-
----
-
-For the About section add:
-```
-Description: Java desktop billing system with GUI and database — college project
-Topics: java, swing, gui, database
